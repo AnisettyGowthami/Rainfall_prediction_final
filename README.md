@@ -11,9 +11,13 @@ The dataset contains approximately 10 years of daily weather observations from m
 Methodology
 
 1.Data Preprocessing: Handle missing values, encode categorical variables, and scale numerical features.
+
 2.Feature Engineering: Add a new feature representing the season based on the month of observation.
+
 3.Seasonal Clustering: Cluster data points based on seasonal patterns and train separate models for each cluster.
+
 4.Model Training: Use a Random Forest Classifier to predict RainTomorrow.
+
 5.Evaluation: Evaluate the model's performance using accuracy and other relevant metrics.
 
 Results and Evaluation
